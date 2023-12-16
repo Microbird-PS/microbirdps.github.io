@@ -16,21 +16,23 @@
             loading-screen="enabled: false;"
             arjs="sourceType: webcam;  videoTexture: true;	debugUIEnabled: false;"
         >  
-            <a-camera gps-camera="simulateLatitude: 7.1772; simulateLongitude: 100.597648" rotation-reader>			
+            <a-camera locationfinder gps-camera="simulateLatitude: 7.177416; simulateLongitude: 100.597551"
+			rotation-reader
+			>			
 			</a-camera>
 			
 			<a-text
 				value="Meelab"
 				scale="2 2 2"
 				look-at="[gps-camera]"
-				gps-entity-place="latitude: 7.177379; longitude: 100.597648;"
+				gps-entity-place="latitude: 7.177341; longitude: 100.597594;"
 			></a-text>
 			
 			<a-image
 				src="assets/asset.jpeg"
 				look-at="[gps-camera]"
 				scale="2 2 2"
-				gps-entity-place="latitude: 7.177379; longitude: 100.597648;"
+				gps-entity-place="latitude: 7.177341; longitude: 100.597594;"
 			></a-image>
         </a-scene>
     </body>
